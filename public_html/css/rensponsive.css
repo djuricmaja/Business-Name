@@ -1,0 +1,73 @@
+@media(max-width: 576px){
+    .about{
+        width: 100%!important;
+    }
+    body{
+        width: fit-content;
+    }
+
+    header .navbar div{
+        padding: 30px;
+    }
+
+
+}
+
+
+@media(min-width: 576px){
+    /*SM Breakpoint*/
+
+
+
+}
+
+@media(min-width: 768px){
+    /*MD Breakpoint*/
+    .about-content{
+        padding: 40px 50px 40px 48px;
+    }
+}
+
+@media(min-width: 992px){
+    /*LG Breakpoint*/
+    .navbar-nav a{
+        border-bottom: none;
+
+    }
+
+
+
+}
+
+@media(min-width: 1200x){
+    /*XL Breakpoint*/
+    .container{
+        width: 1129px;
+        padding: 0;
+        margin-inline:auto;
+    }
+
+
+
+}
+
+@media(min-width: 1400px){
+    /*XXL Breakpoint*/
+    body{
+    }
+    .ourWork{
+        text-align: -webkit-center;
+    }
+    .about-content{
+        padding: 70px 167px 88px 75px;
+    }
+    .about-content p {
+        font-size: 16px!important;
+    }
+    .about-content h2 {
+        font-size: 44px;
+    }
+    .container{
+        max-width: 1129px;
+    }
+}

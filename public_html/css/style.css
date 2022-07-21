@@ -1,0 +1,516 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Dec 17, 2021, 3:00:32 PM
+    Author     : Maja
+*/
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'PT Sans', sans-serif;
+*/
+
+img{
+    max-width: 100%;
+}
+
+.container{
+    margin-inline:auto;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    letter-spacing: normal;
+    color: #7B7B7B;
+    text-align: left;
+    position: relative;
+    margin-inline:auto;
+}
+
+h1{
+    font-family:  'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #ffffff;
+    text-align: center;
+}
+
+h2, h3, h4, h5, h6,
+.h2, .h3, .h4, .h5, .h6{
+    font-family:  'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 26.34px;
+    color: #709DCA;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: normal;
+    color: #7B7B7B;
+}
+
+header{
+    background: rgba(0,0,0,0.4);
+}
+.navbar{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.navbar .navbar-brand {
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 20px;
+    letter-spacing: normal;
+    color: #FFC155;
+    text-align: left;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+    color: rgba(255, 193, 85, 0.7);
+}
+
+.nav-item{
+    margin-inline: 10px;
+}
+
+.navbar .nav-item a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14.5px;
+    line-height: 20px;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.home{
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    display: inline-table;
+
+}
+
+.home .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+h1{
+    padding-top: 243px;
+
+}
+
+.row {
+    --bs-gutter-x:0;
+}
+
+.main{
+    display: grid;
+
+}
+
+
+
+.home h1{
+    margin-bottom: 5px;
+    padding-bottom: 0;
+}
+
+.home p{
+    margin-bottom: 95px;
+    color: #fff;
+}
+
+.home button:hover,
+.home button:active{
+    background-color: #709DCA;
+}
+
+.home button{
+    margin-bottom: 100px;
+    background-color: rgba(112, 157, 202, 0.6);
+    color: #ffffff;
+    border-color: #709DCA;
+    font-weight: 700;
+    position: relative;
+    z-index: 1100;
+}
+
+header .navbar-brand img{
+    height: auto!important;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.navbar-toggler span {
+    width: 30px;
+    height: 2px;
+    background-color: #ffffff;
+    margin-bottom: 5px;
+    display: block;
+    text-align: center!important;
+}
+
+.navbar-toggler span:last-of-type{
+    margin-bottom: 0;
+}
+
+.navbar-nav a{
+    border-bottom: 1px solid  rgba(255,255,255,.55);
+    text-transform: capitalize;
+    transition: 0.4s linear;
+    text-align: center!important;
+
+}
+
+.services{
+    padding-top: 88px;
+    padding-bottom: 94px;
+}
+.services-title{
+    text-align: center;
+    margin-bottom: 88px;
+}
+
+.services .services-article{
+    margin-bottom: 80px;
+}
+
+.services .services-item i:first-of-type{
+    color:#FFC155;
+}
+
+.services-title p{
+    font-size: 1rem;
+    color: #394B50;
+}
+
+.services i{
+    color: #709DCA;
+    font-size: 30px;
+}
+
+.services-article .section-title h3{
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color:#394B50;
+    margin-bottom: 20px;
+
+}
+
+.services-article span{
+    margin-top: 5px;
+    margin-inline:24px;
+}
+
+.about-content{
+    background-color: #FFC155;
+    text-align: left!important;
+    padding: 20px;
+    line-height: 24px;
+}
+
+.section-title{
+    padding-bottom: 37px;
+}
+
+.about{
+    margin-bottom: 103px;
+   
+}
+.about-img{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.about-content .btn{
+    margin-top: 50px;
+    border:1px solid #CB8D21;
+    padding: 17px 32px ;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    background-color: #E7AD48;
+}
+
+.footer_ul2_amrc{
+    list-style: none;
+}
+
+.ourWork-nav .nav{
+    justify-content: center;
+}
+
+.gallery-item img:hover{
+    background-color: #FFC155;
+}
+.ourWork{
+    position: relative;
+    margin-bottom: 78px;
+}
+
+.testimonials-wrap,
+.ourWork{
+    text-align: center;
+}
+
+.testimonials-wrap h2,
+.ourWork h2{
+    display: inline-block;
+    border-bottom: 1px solid #FFC155;
+    padding-bottom: 30px;
+    margin-bottom: 38px;
+}
+
+.ourWork .ourWork-desc p{
+    font-size: 16px;
+    color:#062033;
+    opacity: 80%;
+}
+
+.testimonials-wrap .icon-wrap,
+.ourWork .icon-wrap{
+    position: absolute;
+    padding: 5px;
+    width: 40px;
+    background-color: #fff;
+    display: inline-block;
+    margin-top: 42px;
+    margin-left: -119px;
+
+}
+
+.testimonials-wrap i,
+.ourWork i{
+    font-weight: 24px;
+    color:#FFC155;
+    width: 400;
+}
+
+.border{
+    padding-top: 10px;
+    border-top-color: black;
+    display: inline-block;
+}
+
+.gallery img{
+    width: 100%;
+}
+
+.contact p{
+    color: #C3C3C3;
+    font-family: 'Lato', sans-serif;
+    padding-right: 10px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.businnes-title{
+    font-family: 'Pacifico', cursive;
+}
+
+.contact h5{
+    color:#ffffff;
+    text-transform: capitalize;
+    font-size: 22px;
+    text-align: left;
+    margin-bottom: 26px;
+    margin-top: 72px;
+    font-weight: 400;
+
+}
+.footer{
+    background-color: #3C424A;
+}
+.contact p a,
+.contact i{
+    color: #71B6D5;
+
+}
+.contact .btn-submit{
+    background-color: #71B6D5;
+    border:none;
+}
+
+.group-submit{
+    max-width: 267px;
+    margin-top: 38px;
+    background-color: #3C424A;
+}
+
+.input-submit {
+    background-color: #202328;
+}
+
+.contact-bootom{
+    background-color: #101012;
+}
+
+.contact-bootom li{
+    color: #71B6D5;
+}
+
+.ourWork a{
+    color: #000;
+    font-size: 14.88px;
+}
+
+.ourWork a:hover{
+    color: #fff;
+}
+
+.ourWork li:hover{
+    background-color:  #709DCA;
+    border-radius: 5%;
+}
+
+.ourWork-nav{
+    margin-bottom: 55px;
+}
+
+.dotteds{
+    position: absolute;
+}
+.around-dot{
+    width: 30px;
+    height: 30px;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    margin-inline:5px;
+}
+
+.around-dot:hover{
+    border-color: #fff;
+}
+.dotteds .dotted{
+    background-color: #fff;
+    width: 7px;
+    height: 7px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.testimonials{
+    padding: 25px;
+    color: #747474;
+    text-align: left;
+    font-family: 'Open Sans', italic;
+    font-style: italic;
+    line-height: 23px;
+}
+
+.testimonials p{
+    background-color: #F6F3F3;
+    position: relative
+
+}
+
+.list-inline .icon{
+    text-align: center;
+    margin-left: 10px;
+    background-color: #fff;
+    border-radius: 3px;
+
+
+
+}
+
+.list-inline .icon i{
+    width: 35px;
+    height: 35px;
+    padding: 4px;
+    background-color: #2C3B42;
+    color: #fff;
+}
+
+.list-inline .icon i:hover{
+    background-color: #71B6D5;
+}
+.contact-bootom{
+    text-align: center;
+    color: #C4C4C4;
+    line-height: 18px;
+}
+
+.img-overlay {
+    width: inherit;
+    height: 100vh;
+    background-image:url('../images/overlay (1).png') ;
+    opacity: 0.51;
+    position: absolute;
+    z-index: 0;
+}
+
+.footer button{
+    color:#fff;
+}
+
+.triangle{
+    background: black;
+    width: 20px;
+    height: 20px;
+
+}
+.arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+
+    border-left: 20px solid #F6F3F3;
+    position: absolute;
+    margin-top: -36px;
+    margin-left: 45px;
+}
+
+.testimonials-wrap{
+    margin-bottom: 45px;
+}
+.testimonials .user{
+    padding-inline: 15px;
+    color: #201820;
+}
+
+.testimonials .name{
+    color: #4D4E50;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    margin-left: 20px;
+}
+
+.testimonials .company{
+    font-size: 13px;
+    line-height: 20px;
+    ont-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+}
+
+.testimonials-doted .dotted{
+    background-color:#282528;
+    opacity: 20%;
+    width: 11px;
+    height: 11px;
+        
+}
